@@ -26,9 +26,38 @@ padding: 0px;
     list-style: none;
 
 }
+.huhu{ background-color: rgb(255, 255, 255);
+   
+    
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 10px 30px;
+    padding: 60px 20px;
+    list-style-type: none;
+    margin: 10px auto;
+    list-style: none;
+    gap: 2px;
+    transition: transform 0.3s ease;
+
+
+}
+.huhu:hover {
+  transform: scale(1.1);
+  justify-content: center;
+}
+
 
 body {
     background-color: rgb(236, 234, 234);
+}
+
+.cece{display: flex;    
+ 
+  gap: 5px;
+   flex-wrap: wrap; 
+    justify-content: center;
+    gap: 15px;
+  
 }
 
 
@@ -43,6 +72,9 @@ body {
     margin: 40px auto;
     list-style: none;
 
+
+
+    
 }
 .container ul {
       list-style: none;   
@@ -122,7 +154,7 @@ img {
 
 img {
 	
-	box-shadow: 10px 10px 8px rgb(75, 75, 75);
+	box-shadow: 5px 5px 5px rgb(75, 75, 75);
 }
 
 
