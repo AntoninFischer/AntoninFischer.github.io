@@ -1,7 +1,18 @@
 *{
   padding: 0px;
   margin: 0px;
+
 }
+
+
+
+
+
+
+
+
+
+
 
 
 div{
@@ -37,15 +48,37 @@ padding: 0px;
     margin: 10px auto;
     list-style: none;
     gap: 2px;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
     display: inline-block;
     flex-direction: column;
+    color:black; 
+
+
+
+  
+
+
+}
+
+
+
+
+
+
+.huhu img{
+width:300px;
+height: 200px;
+object-fit: cover;
+border-radius: 15px;
+
+
 
 
 }
 .huhu:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   justify-content: center;
+  box-shadow: 0px 0px 40px rgba(255, 251, 0, 0.5);
 }
 
 
@@ -56,7 +89,7 @@ padding: 0px;
   gap: 5px;
    flex-wrap: wrap; 
     justify-content: center;
-    gap: 15px;
+    gap: 70px;
   
 }
 
@@ -89,10 +122,28 @@ padding: 0px;
   object-position: center;   
 }
 
-
-
 h1{
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;                
+  color: #000000;                       
+  text-align: center;               
+  text-transform: uppercase;        
+  letter-spacing: 2px;            
+  margin: 0px 0;  
+  padding: 20px; 
+  background-color: rgb(255, 255, 255);
+  	text-shadow: 2px 2px 8px rgb(136, 136, 136);
+    
+  
+}
+
+
+
+h2{
    
+  
   font-family: Arial, sans-serif;   
   font-size: 2.5rem;                
   color: #000000;                       
@@ -103,15 +154,18 @@ h1{
   padding: 20px; 
   background-color: rgb(255, 255, 255);
 }
-body{    background-color: rgb(236, 234, 234);
+body{    background-color: rgb(231, 231, 231);
     text-align: center;
     font-optical-sizing: auto;
     font-style: normal;
+    
+    
 
 }
 
 nav{
     background-color: rgb(0, 0, 0);
+    
     
 }
 nav ul {
@@ -119,20 +173,31 @@ nav ul {
   justify-content: center; 
   align-items: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 120px;
+  margin: 20;
+  padding: 20;
+  gap: 120px; 
+  
+  
 }
 
 nav ul li{
+  
     width: 300px;
+    
     list-style-type: none;
     float: left;
     text-align: center;
-    line-height: 50px;
+    line-height: 70px;
     font-size: 30px;
+    
 }
+
+
+
+
+
 nav ul li a{
+
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 25px;
@@ -140,11 +205,17 @@ nav ul li a{
     margin: 0 auto;
     padding: 0 15px;
     font-weight: bold;
+      transition: color 0.4s ease, transform 0.5s ease;
+      display: inline-block; 
+    
+    
 }
 nav ul li a:hover{
     
-    color: rgb(255, 0, 0);
+    color: rgb(255, 242, 0);
     font-weight: bold;
+    transform: translateY(-3px);
+  
 }
 
 
