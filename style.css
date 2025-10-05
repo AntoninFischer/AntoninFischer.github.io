@@ -6,7 +6,16 @@
 
 
 
+h3{  font-family: 'Times New Roman', Times, serif;   
+  font-size: 18px;                
+  color: #282828;                       
+  text-align: center;               
+      
+            
+  margin: 0px 0;  
+  padding: 10px; 
 
+}
 
 
 
@@ -43,9 +52,10 @@ padding: 0px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35)
                      0px 10px 30px;
-    padding: 60px 20px;
+    padding: 30px 20px;
     list-style-type: none;
-    margin: 10px auto;
+    margin: 50px auto;
+    
     list-style: none;
     gap: 2px;
     transition: transform 0.5s ease;
@@ -55,10 +65,13 @@ padding: 0px;
 
 
 
+
   
 
 
 }
+
+
 
 
 
@@ -79,17 +92,99 @@ border-radius: 15px;
   transform: scale(1.05);
   justify-content: center;
   box-shadow: 0px 0px 40px rgba(255, 251, 0, 0.5);
+  background-color: rgb(255, 230, 0);
+ 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.citat{ background-color: rgb(0, 0, 0);
+    max-width: 1200px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 10px 30px;
+    padding: 10px 30px;
+    color: white;
+    font-family: "Brush Script MT";
+    list-style-type: none;
+    margin: 20px auto;
+    list-style: none;
+    
+    
+    
+  }
+
+.citat:hover{  transform: scale(1.05);
+  justify-content: center;
+  box-shadow: 0px 0px 40px rgba(255, 251, 0, 0.5);
+  background-color: rgb(255, 230, 0);
+  color: black;
+
+}
+
+
+
+.tajnytext {
+  display: none; 
+  margin-top: 10px;
+  
+  text-align: center;
+  font-weight: bold;
+  color: black;
+    opacity: 0;
+  transition: opacity 0.3s;
+
+
+
+  
+}
+
+.citat:hover .tajnytext {
+  text-align: center;
+  display: block; 
+  opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 .cece{display: flex;    
  
-  gap: 5px;
+  gap: 115px;
    flex-wrap: wrap; 
     justify-content: center;
-    gap: 70px;
   
 }
 
@@ -151,13 +246,14 @@ h2{
   text-transform: uppercase;        
   letter-spacing: 2px;            
   margin: 0px 0;  
-  padding: 20px; 
-  background-color: rgb(255, 255, 255);
+  padding: 10px; 
+ 
 }
-body{    background-color: rgb(231, 231, 231);
+body{    background-color: rgb(221, 221, 221);
     text-align: center;
     font-optical-sizing: auto;
     font-style: normal;
+    transition: background-color 0.3s;
     
     
 
@@ -175,7 +271,7 @@ nav ul {
   list-style: none;
   margin: 20;
   padding: 20;
-  gap: 120px; 
+  gap: 165px; 
   
   
 }
