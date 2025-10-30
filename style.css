@@ -136,20 +136,37 @@ border: none;
   .projekty {
   text-align: center;
   padding: 6rem;
+      text-decoration: none;
+      
+
+}
+
+.projekt a {
+
+text-decoration: none;
+
 }
 
 .projekty h2 {
   margin-bottom: 3rem;
   font-size: 2rem;
   color: #000;
+      text-decoration: none;
+
+
 }
+
 
 .projekty-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 3rem;
+      text-decoration: none;  }
+.projekty-container a{
+text-decoration: none;
 }
+
 
 .projekt {
 background: rgba(255, 255, 255, 0.47); 
@@ -161,6 +178,7 @@ background: rgba(255, 255, 255, 0.47);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
   text-align: center;
   color: rgb(0, 0, 0);
+    text-decoration: none;
 
 
 
@@ -183,6 +201,8 @@ background: rgba(255, 255, 255, 0.47);
 .projekt p {
   color: #333;
   font-size: 1rem;
+      text-decoration: none;
+
 }
 
 
