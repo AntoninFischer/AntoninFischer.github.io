@@ -223,7 +223,7 @@ background: rgba(255, 255, 255, 0.47);
 }
 
 .omne-text {
-  background: rgba(254, 254, 254, 0.496); /* stejná průhlednost jako .text */
+  background: rgba(254, 254, 254, 0.496);
   border-radius: 20px;
   padding: 10rem 50px; /* stejné odsazení jako .text */
   backdrop-filter: blur(15px);
