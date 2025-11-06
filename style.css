@@ -41,7 +41,7 @@ body {
 
 
 
-/* Responzivní navbar */
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -60,10 +60,10 @@ body {
 
 
 .uvod{
-  display: flex;          /* zapne Flexbox */
-  align-items: center;    /* vertikálně zarovná obrázek a text */
+  display: flex;        
+  align-items: center;    
   justify-content: center;
-  gap: 10rem;              /* mezera mezi obrázkem a textem */
+  gap: 10rem;              
 }
 
 .stranka{
@@ -76,7 +76,7 @@ object-fit: cover;
 height: 29rem;
 width: 23rem;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.4); /* jemný okraj */
+  border: 1px solid rgba(255, 255, 255, 0.4); 
 
 
 
@@ -225,7 +225,7 @@ background: rgba(255, 255, 255, 0.47);
 .omne-text {
   background: rgba(254, 254, 254, 0.496);
   border-radius: 20px;
-  padding: 10rem 50px; /* stejné odsazení jako .text */
+  padding: 10rem 50px; 
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.86);
